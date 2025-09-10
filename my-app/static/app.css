@@ -1,0 +1,20 @@
+:root {
+    margin: 0;
+    padding: 1em;
+    min-height: 100vh;
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: 'poppins' ;
+    src: url(Poppins/Poppins-Regular.ttf);
+}
+
+article {
+    background-color: #739EC9;
+    font-family: 'poppins', sans-serif;
+    width: 30em;
+    height: 30em;
+    padding: 1em;
+    border-radius: 2em;
+}
