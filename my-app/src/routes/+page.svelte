@@ -1,12 +1,17 @@
 <script>
     let { data } = $props(); 
-    const members = data.members;
+    const member = data.member;
 </script>
 
-<h1>Test</h1>
-<!-- <p>Visit <a href="https://svelte.dev/docs/kit">svelte.dev/docs/kit</a> to read the documentation</p> -->
+<article>
+    <h1> { member.name }</h1>
+    <p> <strong>Github:</strong> { member.github_handle } </p>
+    <p> <strong>Bio:</strong> { member.bio } </p>
+    <p> <strong>Birthdate:</strong> { member.birthdate } </p>
+    <p> <strong>Fav emoji:</strong> { member.fav_emoji } </p>
+    <p> <strong>Hobby:</strong> { member.fav_hobby } </p>
+    <p> <strong>Fav animal:</strong> { member.fav_animal } </p>
+</article>
 
-{#each members as member}
-    <a href="/{member.id}"> {member.name} </a>
-{/each}
+
 
