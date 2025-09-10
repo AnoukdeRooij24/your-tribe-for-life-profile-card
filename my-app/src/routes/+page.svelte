@@ -5,6 +5,8 @@
 
 <article>
     <h1> { member.name }</h1>
+    <img src={member.avatar} alt="{member.name} picture" width="100px" height="100px"/>
+
     <p> <strong>Github:</strong> { member.github_handle } </p>
     <p> <strong>Bio:</strong> { member.bio } </p>
     <p> <strong>Birthdate:</strong> { member.birthdate } </p>
