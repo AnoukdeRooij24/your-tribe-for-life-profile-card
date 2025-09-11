@@ -11,10 +11,49 @@
 }
 
 article {
+    justify-self: center;
     background-color: #739EC9;
     font-family: 'poppins', sans-serif;
-    width: 30em;
-    height: fit-content;
-    padding: 1em;
+    padding: 1em 0em 1em 0em;
     border-radius: 2em;
+    width: 280px;
+    height: 500px;
+
+    @media (width > 650px) {
+        width: 500px;
+        height: 600px;
+        transition: .5s;
+    }
+}
+
+.name {
+    justify-self: center;
+    padding: 1em;
+
+        @media (width > 650px) {
+            padding-top: 2em;
+        }
+
+    img {
+    border-radius: 50%;
+
+        @media (width > 650px) {
+            width: 150px;
+            height: 150px;
+            transition: .5s;
+        }
+    }
+}
+
+.line {
+    border-bottom: white dotted 4px;
+}
+
+.info {
+    justify-self: center;
+    padding: 1em;
+            @media (width > 650px) {
+            padding-top: 2em;
+        }
+
 }
