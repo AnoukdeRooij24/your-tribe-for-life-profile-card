@@ -12,12 +12,14 @@
 
 article {
     justify-self: center;
+    /* display: grid;
+    place-items: center; */
     background-color: #739EC9;
     font-family: 'poppins', sans-serif;
     padding: 1em 0em 1em 0em;
     border-radius: 2em;
     width: 280px;
-    height: 500px;
+    height: fit-content;
 
     @media (width > 650px) {
         width: 500px;
@@ -27,7 +29,8 @@ article {
 }
 
 .name {
-    justify-self: center;
+    display: grid;
+    place-items: center;
     padding: 1em;
 
         @media (width > 650px) {
@@ -36,7 +39,9 @@ article {
 }
 
 img {
-border-radius: 50%;
+    border-radius: 50%;
+    display: grid;
+    place-items: center;
 
     @media (width > 650px) {
         width: 150px;
@@ -51,9 +56,10 @@ border-radius: 50%;
 
 .info {
     justify-self: center;
+    /* display: grid;
+    place-items: center; */
     padding: 1em;
             @media (width > 650px) {
             padding-top: 1.5em;
         }
-
 }
