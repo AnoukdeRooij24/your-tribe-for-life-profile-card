@@ -21,7 +21,7 @@ article {
 
     @media (width > 650px) {
         width: 500px;
-        height: 600px;
+        height: fit-content;
         transition: .5s;
     }
 }
@@ -53,7 +53,7 @@ article {
     justify-self: center;
     padding: 1em;
             @media (width > 650px) {
-            padding-top: 2em;
+            padding-top: 1.5em;
         }
 
 }
