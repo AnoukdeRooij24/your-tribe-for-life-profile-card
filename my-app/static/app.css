@@ -33,15 +33,15 @@ article {
         @media (width > 650px) {
             padding-top: 2em;
         }
+}
 
-    img {
-    border-radius: 50%;
+img {
+border-radius: 50%;
 
-        @media (width > 650px) {
-            width: 150px;
-            height: 150px;
-            transition: .5s;
-        }
+    @media (width > 650px) {
+        width: 150px;
+        height: 150px;
+        transition: .5s;
     }
 }
 
