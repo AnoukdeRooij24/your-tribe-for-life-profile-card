@@ -8,4 +8,10 @@
 	<link rel="icon" href={favicon} />
 </svelte:head>
 
-{@render children?.()}
+<!-- Hier kan de header + nav komen -->
+
+<main>
+	{@render children?.()}
+</main>
+
+<!-- Hier kan de footer komen -->
