@@ -3,8 +3,10 @@
 </script>
 
 <div class="info">
-    <p> <strong>Github:</strong> { member.github_handle } </p>
-    <p> <strong>I Love Web:</strong> <a href=" { member.website } "> I Love Web </a> </p>
+    <div class="links">
+        <a href="https://github.com/AnoukdeRooij24"> <img class="logo" src="src/lib/assets/github_logo.png" alt="{ member.github_handle }" width="50px" height="50px"> </a>
+        <a href="{ member.website }"> <img class="logo" src="src/lib/assets/website_logo.png" alt="I love web" width="50px" height="50px"> </a>
+    </div>
     <p> <strong>Bio:</strong> { member.bio } </p>
     <p> <strong>Birthdate:</strong> { member.birthdate } </p>
     <p> <strong>Fav emoji:</strong> { member.fav_emoji } </p>
