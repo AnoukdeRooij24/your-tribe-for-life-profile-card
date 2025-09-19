@@ -12,8 +12,6 @@
 
 article {
     justify-self: center;
-    /* display: grid;
-    place-items: center; */
     background-color: #739EC9;
     font-family: 'poppins', sans-serif;
     padding: 1em 0em 1em 0em;
@@ -26,7 +24,13 @@ article {
         height: fit-content;
         transition: .5s;
     }
+
 }
+
+article:hover {
+    background: linear-gradient(10deg, violet, lightblue, lightgreen);
+}
+
 
 .name {
     display: grid;
